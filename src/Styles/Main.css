@@ -1,0 +1,78 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+#Logo {
+    /* position: absolute;
+    top: 7%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    margin: 40px;
+    justify-self: center;
+    width: 112px;
+    height: 18px;
+}
+
+#Group {
+    justify-self: center;
+    width: 781px;
+    height: 482px;
+}
+
+#iPhone{
+    display: none;
+}
+#mainLink1 {
+    margin-top: 80px;
+    width: 387px;
+    height: 60px;
+    border: none;
+    background-color: #62A1EB;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+#mainLink2 {
+    margin-top: 20px;
+    width: 387px;
+    height: 60px;
+    border: none;
+    background-color: #62A1EB;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+/* css for iPhone 12 pro */
+
+@media only screen and (max-width: 390px) {
+    #Logo {
+        margin-top: 67px;
+    }
+
+    #Group {
+     display: none;
+    }
+
+    #iPhone {
+        display: flex;
+        margin-top: 135;
+        width: 350px;
+        height: auto;
+    }
+
+    #mainLink1 {
+        margin-top: 150px;
+        width: 358px;
+        height: 60px;
+    }
+
+    #mainLink2 {
+        margin-top: 20px;
+        width: 358px;
+        height: 60px;
+    }
+}

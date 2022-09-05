@@ -1,0 +1,335 @@
+#secondPage {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#eightBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#secondBox,
+#thirdBox,
+#forthBox,
+#fifthBox,
+#sixthBox,
+#sevenBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#firstBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 53px;
+    padding-bottom: 55px;
+    text-decoration: underline;
+}
+
+#Arrow {
+    grid-column: 1;
+    width: 53px;
+    margin-right: 500px;
+
+}
+
+#iPhoneArrow {
+    display: none;
+}
+
+#staffInfo {
+    grid-column: 2;
+    font-weight: 700;
+
+}
+
+#half {
+    display: none;
+}
+
+#name {
+    grid-column: 2;
+
+}
+
+#firstName,
+#lastName2,
+#email2,
+#mobileNum2 {
+    font-weight: 200;
+    font-size: 14px;
+}
+
+#firstNameInput,
+#lastNameInput {
+    font-size: 20px;
+    width: 436px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    background: #FFFFFF;
+}
+
+
+#lastName {
+    grid-column: 3;
+}
+
+#teamNameInput,
+#position,
+#emailInput,
+#mobileNumInput {
+    grid-column: 2/4;
+    font-size: 20px;
+    width: 930px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    background: #FFFFFF;
+}
+
+#teamNameInput,
+#position {
+    background-color: rgba(231, 231, 231, 0.685);
+}
+
+#position {
+    grid-column: 2/4;
+}
+
+#email,
+#email2 {
+    grid-column: 2/4;
+}
+
+
+#mobileNum,
+#mobileNum2 {
+    grid-column: 2/4;
+}
+
+#next {
+    grid-column: 3;
+}
+
+#nextButton {
+    width: 176px;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 60%;
+    border-radius: 10px;
+    background: #62A1EB;
+    color: #FFFFFF;
+
+}
+
+#logo2 {
+    grid-column: 2;
+    width: 85px;
+    margin: auto;
+    padding: 40px;
+}
+
+@media only screen and (max-width: 390px) {
+    #secondPage {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #eightBox {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #secondBox,
+    #thirdBox,
+    #forthBox,
+    #fifthBox,
+    #sixthBox,
+    #sevenBox {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    #firstBox {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-decoration: underline;
+    }
+
+    #Arrow {
+        grid-column: 1/4;
+        width: 53px;
+
+
+    }
+
+    #staffInfo {
+        grid-column: 1/4;
+        font-weight: 700;
+
+    }
+
+    #name {
+        grid-column: 1;
+
+    }
+
+    #firstName,
+    #lastName2,
+    #email2,
+    #mobileNum2 {
+        font-weight: 200;
+        font-size: 14px;
+    }
+
+    #firstNameInput,
+    #lastNameInput {
+        font-size: 20px;
+        height: 50px;
+        border-radius: 15px;
+        border: 2px solid lightblue;
+        background: #FFFFFF;
+    }
+
+
+    #lastName {
+        grid-column: 1;
+    }
+
+    #teamNameInput,
+    #position,
+    #emailInput,
+    #mobileNumInput {
+        grid-column: 1/5;
+        font-size: 20px;
+        height: 50px;
+        border-radius: 15px;
+        border: 2px solid lightblue;
+        background: #FFFFFF;
+    }
+
+    #position {
+        grid-column: 1/5;
+    }
+
+    #email,
+    #email2 {
+        grid-column: 1;
+    }
+
+    #mobileNum,
+    #mobileNum2 {
+        grid-column: 1;
+    }
+
+    #next {
+        grid-column: 3;
+    }
+
+    #nextButton {
+        width: 176px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 60%;
+        border-radius: 10px;
+        background: #62A1EB;
+        color: #FFFFFF;
+
+    }
+
+    #logo2 {
+        grid-column: 1/5;
+        width: 85px;
+        margin: auto;
+        padding: 40px;
+    }
+
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    #firstBox,
+    #Arrow,
+    #stuffInfo {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #half {
+        display: flex;
+        justify-content: center;
+        color: rgba(128, 128, 128, 0.692);
+    }
+
+    #Arrow {
+        display: none;
+    }
+
+    #iPhoneArrow {
+        display: flex;
+        height: 20px;
+        margin: 10px;
+    }
+
+    #secondBox,
+    #thirdBox,
+    #forthBox,
+    #fifthBox,
+    #sixthBox,
+    #sevenBox {
+        grid-column: 1/5;
+
+    }
+
+    #firstNameInput,
+    #lastNameInput,
+    #teamNameInput,
+    #position,
+    #emailInput,
+    #mobileNumInput {
+        width: 350px;
+
+    }
+
+    #mobileNum,
+    #mobileNum2,
+    #email,
+    #email2 {
+        grid-column: 1/4;
+    }
+
+    #next {
+        grid-column: 3;
+    }
+
+    #nextButton {
+        width: 132px;
+        height: 45px;
+        font-size: 14px;
+        margin-bottom: 40px;
+        margin-left: 50%;
+        border-radius: 10px;
+        background: #62A1EB;
+        color: #FFFFFF;
+
+    }
+
+    #logo2 {
+        display: none;
+    }
+
+}

@@ -1,0 +1,96 @@
+#fourthPage {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: 3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4A4A4A;
+
+}
+
+#dataRecordedContainer {
+    grid-column: 3;
+    margin: auto;
+    width: 857px;
+    height: 537px;
+    text-align: center;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+#recordedImage,
+#showLaptopsButton,
+#mainLinkButton {
+    grid-column: 2;
+    margin-bottom: 30px;
+}
+
+#recordedInfo2 {
+    grid-column: 2;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+
+#showLaptopsButton {
+    width: 297px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #62A1EB;
+    color: #FFFFFF;
+}
+
+#mainLinkButton {
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    margin-top: 40px;
+    color: #0089A7;
+
+}
+
+
+@media only screen and (max-width: 390px) {
+    #fourthPage {
+        background-color: #FFFFFF
+    }
+
+    #recordedImage,
+    #showLaptopsButton,
+    #mainLinkButton,
+    #recordedInfo2 {
+        grid-column: 1;
+        margin-bottom: 30px;
+    }
+
+    #recordedInfo2 {
+        width: 70%;
+        margin: auto;
+        line-height: 50px;
+    }
+
+    #dataRecordedContainer {
+        height: 100vh;
+        width: 100vw;
+        grid-column: 1;
+        margin-top: 100px;
+        background-color: #FFFFFF
+    }
+
+    #showLaptopsButton {
+        width: 297px;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 8px;
+        margin-top: 200px;
+        background: #62A1EB;
+        color: #FFFFFF;
+    }
+}

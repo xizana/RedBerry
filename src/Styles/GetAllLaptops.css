@@ -1,0 +1,119 @@
+#pageFive5 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+#iPhoneArrow3 {
+    display: none;
+}
+
+#Arrow {
+    width: 53px;
+    margin-left: 73px;
+}
+
+#chanawerebisSia {
+    grid-column: 2/4;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 73px;
+
+}
+
+#pageFiveContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 53px;
+
+}
+
+#allLaptopsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: linear-gradient(0deg, #EAFAFF, #EAFAFF);
+    border-radius: 40px;
+    margin: 40px 200px 40px 200px;
+    border: 1px solid #AED1EA;
+
+}
+
+#brokenImage {
+    grid-column: 1;
+    grid-row: 1/4;
+    margin: auto;
+
+}
+
+#fullName {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 20px;
+}
+
+#seeMoreLink {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4386A9;
+    margin: 20px;
+}
+
+#valueLaptopName {
+    margin: 20px;
+}
+
+@media only screen and (max-width: 390px) {
+    #Arrow {
+        display: none;
+    }
+
+    #iPhoneArrow3 {
+        display: grid;
+    }
+
+    #allLaptopsContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        background: linear-gradient(0deg, #EAFAFF, #EAFAFF);
+        margin: 0;
+        border-radius: 40px;
+        margin: 20px;
+        border: 1px solid #AED1EA;
+
+    }
+
+    #pageFiveContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 31px;
+    }
+
+    #chanawerebisSia {
+        grid-column: 2;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        width: 200px;
+        margin: auto;
+    }
+
+    #fullName {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    #valueLaptopName {
+        font-size: 24px;
+    }
+ 
+}

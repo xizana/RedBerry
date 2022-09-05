@@ -1,0 +1,538 @@
+#thirdPage {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#boxOne,
+#logo2Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#boxOne {
+    text-align: center;
+    margin-top: 53px;
+}
+
+#compInfo {
+    text-decoration: underline;
+}
+
+
+#boxTwo,
+#boxThree,
+#boxFive,
+#boxSeven,
+#boxEight {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#boxEight {
+    padding-top: 40px;
+}
+
+#boxFour {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+#boxSix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+#conditionContainer {
+    grid-column: 2;
+}
+
+
+#Arrow2 {
+    grid-column: 1;
+    width: 53px;
+    margin-right: 500px;
+
+}
+
+#iPhoneArrow2 {
+    display: none;
+}
+
+#half2 {
+    display: none;
+}
+
+
+#uploadFile {
+    grid-column: 2/4;
+    border: 2px dashed #4386A9;
+    height: 423px;
+    margin-top: 50px;
+    /* color: #4386A9; */
+
+}
+
+
+#compName,
+#compNameInput,
+#compName2 {
+    grid-column: 2;
+
+}
+
+#compName2 {
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
+#compNameInput {
+    font-size: 20px;
+    width: 436px;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    background: #FFFFFF;
+}
+
+
+#brand {
+    grid-column: 3;
+    grid-row: 2;
+
+}
+
+#laptopBrand {
+    font-size: 20px;
+    width: 436px;
+    height: 55px;
+    border-radius: 15px;
+    margin-left: 9%;
+    border: 2px solid lightblue;
+    background: #FFFFFF;
+}
+
+#cpu,
+#birtviInput,
+#nakadiInput {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 20px;
+    width: 277px;
+    height: 55px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    background: #FFFFFF;
+}
+
+
+#birtvi {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 35%;
+
+}
+
+#birtviInput {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 35%;
+}
+
+
+#birtvi2 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 35%;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+#nakadi {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 70%;
+}
+
+#nakadiInput {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 70%;
+}
+
+#nakadi2 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 70%;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+#ram {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ramInput,
+#dateInput,
+#priceInput {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: 20px;
+    width: 455px;
+    height: 55px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    background: #FFFFFF;
+
+
+}
+
+#ram2 {
+    grid-column: 2;
+    grid-row: 3;
+    font-weight: 200;
+    font-size: 14px;
+
+}
+
+#memoryContainer {
+    grid-column: 3;
+    grid-row: 1/3;
+    margin-left: 15%;
+}
+
+
+#ssd,
+#hdd,
+#memory,
+#new,
+#used {
+    margin: 20px;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+
+
+
+#date {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#dateInput {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#price {
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: 4%;
+}
+
+#priceInput {
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 4%;
+}
+
+#price2 {
+    grid-column: 3;
+    grid-row: 3;
+    font-weight: 200;
+    font-size: 14px;
+    margin-left: 4%;
+}
+
+
+#compLink {
+    grid-column: 2;
+    margin: auto;
+    margin-right: 435px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #62A1EB;
+
+}
+
+#submitButton {
+    grid-column: 3;
+    width: 219px;
+    height: 60px;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 55%;
+    border-radius: 10px;
+    background: #62A1EB;
+    color: #FFFFFF;
+
+}
+
+#logo2 {
+    grid-column: 2;
+    width: 85px;
+}
+
+@media only screen and (max-width: 390px) {
+
+    #thirdBox {
+        display: grid;
+    }
+
+    #Arrow2 {
+        display: none;
+    }
+
+    #boxOne{
+        margin-top: 31px;
+    }
+    #compInfo{
+        grid-column: 2;
+
+        width: 80vw;
+        grid-row: 1;
+        font-size: 16px;
+    }
+    #half2 {
+        display: grid;
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 40px;
+        color: rgba(128, 128, 128, 0.692);
+    }
+
+    #uploadFile {
+        grid-column: 1/5;
+        width: 358px;
+        height: 244px;
+        margin-top: 50px;
+        border: 2px dashed #4386A9;
+        /* color: #4386A9; */
+
+    }
+
+    #compNameInput,
+    #laptopBrand,
+    #cpu,
+    #birtviInput,
+    #nakadiInput,
+    #ramInput,
+    #dateInput,
+    #priceInput {
+        width: 350px;
+        height: 50px;
+        margin: 0;
+        padding: 8px;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    #iPhoneArrow2 {
+        display: grid;
+        margin-left: 10px;
+
+    }
+
+    #laptopBrand,
+    #cpu {
+        width: 370px;
+        height: 50px;
+        padding: 8px;
+        margin-top: 20px;
+
+    }
+
+    #compName {
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+    #compNameInput {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 8px;
+    }
+
+    #compName2 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    #brand {
+        grid-column: 1;
+        grid-row: 4;
+
+
+    }
+
+    #date {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #dateInput {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 8px;
+    }
+
+    #price {
+        grid-column: 1;
+        grid-row: 3;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #priceInput {
+        grid-column: 1;
+        grid-row: 4;
+        padding: 8px;
+    }
+
+    #price2 {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #cpu,
+    #ram {
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+
+    #birtvi,
+    #ramInput {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    #ramInput,
+    #birtviInput {
+        padding: 8px;
+    }
+
+    #birtviInput,
+    #ram2 {
+        grid-column: 1;
+        grid-row: 3;
+        margin: 0;
+    }
+
+    #ram2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #birtvi2 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    #nakadi {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    #nakadiInput {
+        grid-column: 1;
+        grid-row: 6;
+
+    }
+
+    #nakadi2 {
+        grid-column: 1;
+        grid-row: 7;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+
+    #memoryContainer {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 0;
+    }
+
+    #memory {
+        margin: 0;
+        padding-top: 10px;
+
+    }
+
+    #ssd {
+        margin-left: 0;
+    }
+
+    #memoryRadio {
+        margin: 20px;
+        grid-column: 1;
+        grid-row: 5;
+
+    }
+
+    #conditionContainer {
+        grid-column: 1/5;
+        margin: 0;
+
+    }
+
+
+    #boxEight {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    #compLink {
+        grid-column: 1;
+        grid-row: 1;
+        margin: auto;
+    }
+
+    #submitButton {
+        grid-column: 3/5;
+        grid-row: 1;
+        width: 162px;
+        height: 46px;
+        margin: auto;
+    }
+
+    #logo2 {
+        display: none;
+    }
+
+
+
+}
